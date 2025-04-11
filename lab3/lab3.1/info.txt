@@ -1,0 +1,6 @@
+This directory contains all code and the environment setup for Lab 3.1.
+
+Instructions: Before running the model code, please run the three preprocessing .ipynb notebooks to generate the necessary embeddings.
+
+To reduce memory usage during execution, lab3.1_bow.ipynb saves the Bag-of-Words (BoW) embeddings for each story individually as .npz files under the data/ folder.
+The modeling section in lab3.1_model_bow.ipynb will load these pre-saved .npz files to train the model efficiently.
